@@ -1,0 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '7.0'
+
+target '百思不得姐' do
+	pod 'JSONModel'
+	pod 'MJRefresh'
+	pod 'SDWebImage', '~>3.8'
+	pod 'Masonry'
+end
