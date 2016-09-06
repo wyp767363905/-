@@ -19,12 +19,11 @@
 
 //1.首页的列表
 
-#define kERecommendUrl (@"http://s.budejie.com/topic/list/jingxuan/1/bs0315-iphone-4.3/%ld-20.json")
-
-//http://s.budejie.com/topic/list/jingxuan/1/bs0315-iphone-4.3/1472004962-20.json
 //1.1 推荐
+#define kEssenceRecommendUrl (@"http://s.budejie.com/topic/list/jingxuan/1/bs0315-iphone-4.3/%ld-20.json")
 
 //1.2 视频
+#define kEssenceVideoUrl (@"http://s.budejie.com/topic/list/jingxuan/41/bs0315-iphone-4.3/%ld-20.json")
 
 //1.3 图片
 

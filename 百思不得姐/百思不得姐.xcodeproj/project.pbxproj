@@ -8,6 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		5BC82B22254EC2C0B2D5F9DE /* libPods-百思不得姐.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E99E4597460EE979D90DFDEE /* libPods-百思不得姐.a */; };
+		BC0E1D5E1D7E9531000692A3 /* EssenceVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0E1D5C1D7E9531000692A3 /* EssenceVideoCell.m */; };
+		BC0E1D5F1D7E9531000692A3 /* EssenceVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC0E1D5D1D7E9531000692A3 /* EssenceVideoCell.xib */; };
+		BC0E1D6C1D7E9B14000692A3 /* cellmorebtnclick_24x20_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0E1D601D7E9B14000692A3 /* cellmorebtnclick_24x20_@1x.png */; };
+		BC0E1D6D1D7E9B14000692A3 /* cellmorebtnclick_24x20_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0E1D611D7E9B14000692A3 /* cellmorebtnclick_24x20_@2x.png */; };
+		BC0E1D6E1D7E9B14000692A3 /* cellmorebtnclick_24x20_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0E1D621D7E9B14000692A3 /* cellmorebtnclick_24x20_@3x.png */; };
+		BC0E1D6F1D7E9B14000692A3 /* cellmorebtnclickN_24x20_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0E1D631D7E9B14000692A3 /* cellmorebtnclickN_24x20_@1x.png */; };
+		BC0E1D701D7E9B14000692A3 /* cellmorebtnclickN_24x20_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0E1D641D7E9B14000692A3 /* cellmorebtnclickN_24x20_@2x.png */; };
+		BC0E1D711D7E9B14000692A3 /* cellmorebtnclickN_24x20_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0E1D651D7E9B14000692A3 /* cellmorebtnclickN_24x20_@3x.png */; };
+		BC0E1D721D7E9B14000692A3 /* cellmorebtnnormal_24x20_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0E1D661D7E9B14000692A3 /* cellmorebtnnormal_24x20_@1x.png */; };
+		BC0E1D731D7E9B14000692A3 /* cellmorebtnnormal_24x20_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0E1D671D7E9B14000692A3 /* cellmorebtnnormal_24x20_@2x.png */; };
+		BC0E1D741D7E9B14000692A3 /* cellmorebtnnormal_24x20_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0E1D681D7E9B14000692A3 /* cellmorebtnnormal_24x20_@3x.png */; };
+		BC0E1D751D7E9B14000692A3 /* cellmorebtnnormalN_24x20_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0E1D691D7E9B14000692A3 /* cellmorebtnnormalN_24x20_@1x.png */; };
+		BC0E1D761D7E9B14000692A3 /* cellmorebtnnormalN_24x20_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0E1D6A1D7E9B14000692A3 /* cellmorebtnnormalN_24x20_@2x.png */; };
+		BC0E1D771D7E9B14000692A3 /* cellmorebtnnormalN_24x20_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0E1D6B1D7E9B14000692A3 /* cellmorebtnnormalN_24x20_@3x.png */; };
 		BCA6B4F61D7D002700C01566 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA6B4F51D7D002700C01566 /* main.m */; };
 		BCA6B4F91D7D002700C01566 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA6B4F81D7D002700C01566 /* AppDelegate.m */; };
 		BCA6B4FC1D7D002700C01566 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA6B4FB1D7D002700C01566 /* ViewController.m */; };
@@ -262,6 +276,21 @@
 /* Begin PBXFileReference section */
 		27B54BF0D70CE8370E1932DF /* Pods-百思不得姐.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.debug.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.debug.xcconfig"; sourceTree = "<group>"; };
 		28C61AFDDA747A9CAAD0A005 /* Pods-百思不得姐.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.release.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.release.xcconfig"; sourceTree = "<group>"; };
+		BC0E1D5B1D7E9531000692A3 /* EssenceVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EssenceVideoCell.h; sourceTree = "<group>"; };
+		BC0E1D5C1D7E9531000692A3 /* EssenceVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EssenceVideoCell.m; sourceTree = "<group>"; };
+		BC0E1D5D1D7E9531000692A3 /* EssenceVideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EssenceVideoCell.xib; sourceTree = "<group>"; };
+		BC0E1D601D7E9B14000692A3 /* cellmorebtnclick_24x20_@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cellmorebtnclick_24x20_@1x.png"; sourceTree = "<group>"; };
+		BC0E1D611D7E9B14000692A3 /* cellmorebtnclick_24x20_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cellmorebtnclick_24x20_@2x.png"; sourceTree = "<group>"; };
+		BC0E1D621D7E9B14000692A3 /* cellmorebtnclick_24x20_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cellmorebtnclick_24x20_@3x.png"; sourceTree = "<group>"; };
+		BC0E1D631D7E9B14000692A3 /* cellmorebtnclickN_24x20_@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cellmorebtnclickN_24x20_@1x.png"; sourceTree = "<group>"; };
+		BC0E1D641D7E9B14000692A3 /* cellmorebtnclickN_24x20_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cellmorebtnclickN_24x20_@2x.png"; sourceTree = "<group>"; };
+		BC0E1D651D7E9B14000692A3 /* cellmorebtnclickN_24x20_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cellmorebtnclickN_24x20_@3x.png"; sourceTree = "<group>"; };
+		BC0E1D661D7E9B14000692A3 /* cellmorebtnnormal_24x20_@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cellmorebtnnormal_24x20_@1x.png"; sourceTree = "<group>"; };
+		BC0E1D671D7E9B14000692A3 /* cellmorebtnnormal_24x20_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cellmorebtnnormal_24x20_@2x.png"; sourceTree = "<group>"; };
+		BC0E1D681D7E9B14000692A3 /* cellmorebtnnormal_24x20_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cellmorebtnnormal_24x20_@3x.png"; sourceTree = "<group>"; };
+		BC0E1D691D7E9B14000692A3 /* cellmorebtnnormalN_24x20_@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cellmorebtnnormalN_24x20_@1x.png"; sourceTree = "<group>"; };
+		BC0E1D6A1D7E9B14000692A3 /* cellmorebtnnormalN_24x20_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cellmorebtnnormalN_24x20_@2x.png"; sourceTree = "<group>"; };
+		BC0E1D6B1D7E9B14000692A3 /* cellmorebtnnormalN_24x20_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cellmorebtnnormalN_24x20_@3x.png"; sourceTree = "<group>"; };
 		BCA6B4F11D7D002700C01566 /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCA6B4F51D7D002700C01566 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BCA6B4F71D7D002700C01566 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -822,6 +851,9 @@
 		BCA6B53C1D7D018A00C01566 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				BC0E1D5B1D7E9531000692A3 /* EssenceVideoCell.h */,
+				BC0E1D5C1D7E9531000692A3 /* EssenceVideoCell.m */,
+				BC0E1D5D1D7E9531000692A3 /* EssenceVideoCell.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -870,6 +902,18 @@
 		BCDB091C1D7D07610027F707 /* Essence */ = {
 			isa = PBXGroup;
 			children = (
+				BC0E1D601D7E9B14000692A3 /* cellmorebtnclick_24x20_@1x.png */,
+				BC0E1D611D7E9B14000692A3 /* cellmorebtnclick_24x20_@2x.png */,
+				BC0E1D621D7E9B14000692A3 /* cellmorebtnclick_24x20_@3x.png */,
+				BC0E1D631D7E9B14000692A3 /* cellmorebtnclickN_24x20_@1x.png */,
+				BC0E1D641D7E9B14000692A3 /* cellmorebtnclickN_24x20_@2x.png */,
+				BC0E1D651D7E9B14000692A3 /* cellmorebtnclickN_24x20_@3x.png */,
+				BC0E1D661D7E9B14000692A3 /* cellmorebtnnormal_24x20_@1x.png */,
+				BC0E1D671D7E9B14000692A3 /* cellmorebtnnormal_24x20_@2x.png */,
+				BC0E1D681D7E9B14000692A3 /* cellmorebtnnormal_24x20_@3x.png */,
+				BC0E1D691D7E9B14000692A3 /* cellmorebtnnormalN_24x20_@1x.png */,
+				BC0E1D6A1D7E9B14000692A3 /* cellmorebtnnormalN_24x20_@2x.png */,
+				BC0E1D6B1D7E9B14000692A3 /* cellmorebtnnormalN_24x20_@3x.png */,
 				BCDB091D1D7D07610027F707 /* cell-button-line.png */,
 				BCDB091E1D7D07610027F707 /* cell-button-line@2x.png */,
 				BCDB091F1D7D07610027F707 /* cell-content-line.png */,
@@ -1228,6 +1272,7 @@
 			files = (
 				BCDB09FD1D7D07610027F707 /* cellFollowClickIcon@3x.png in Resources */,
 				BCDB09F61D7D07610027F707 /* AppIcon76x76~ipad.png in Resources */,
+				BC0E1D701D7E9B14000692A3 /* cellmorebtnclickN_24x20_@2x.png in Resources */,
 				BCDB0A821D7D07610027F707 /* publish-picture.png in Resources */,
 				BCDB0AB31D7D07610027F707 /* tabBar_publish_click_icon@2x.png in Resources */,
 				BCDB0A2E1D7D07610027F707 /* Profile_AddV_authen@2x.png in Resources */,
@@ -1238,6 +1283,8 @@
 				BCDB0A1D1D7D07610027F707 /* mainCellShareClick@2x.png in Resources */,
 				BCDB0A791D7D07610027F707 /* app_slogan.png in Resources */,
 				BCDB0A441D7D07610027F707 /* header_cry_icon@2x.png in Resources */,
+				BC0E1D6E1D7E9B14000692A3 /* cellmorebtnclick_24x20_@3x.png in Resources */,
+				BC0E1D711D7E9B14000692A3 /* cellmorebtnclickN_24x20_@3x.png in Resources */,
 				BCDB0A4F1D7D07610027F707 /* friendsRecommentIcon.png in Resources */,
 				BCDB0AAA1D7D07610027F707 /* tabBar_me_icon@2x.png in Resources */,
 				BCDB09F71D7D07610027F707 /* cell-button-line.png in Resources */,
@@ -1245,7 +1292,9 @@
 				BCDB09F31D7D07610027F707 /* AppIcon72x72@2x~ipad.png in Resources */,
 				BCDB0A351D7D07610027F707 /* tagicon.png in Resources */,
 				BCDB0AB61D7D07610027F707 /* tabBar_publish_icon@2x.png in Resources */,
+				BC0E1D6F1D7E9B14000692A3 /* cellmorebtnclickN_24x20_@1x.png in Resources */,
 				BCDB0A7E1D7D07610027F707 /* publish-audio@3x.png in Resources */,
+				BC0E1D721D7E9B14000692A3 /* cellmorebtnnormal_24x20_@1x.png in Resources */,
 				BCDB0A7A1D7D07610027F707 /* app_slogan@2x.png in Resources */,
 				BCDB0A111D7D07610027F707 /* mainCellCaiClick@2x.png in Resources */,
 				BCDB0A5D1D7D07610027F707 /* mine-moon-icon.png in Resources */,
@@ -1269,6 +1318,7 @@
 				BCDB0A371D7D07610027F707 /* tagicon@3x.png in Resources */,
 				BCDB0A811D7D07610027F707 /* publish-offline@3x.png in Resources */,
 				BCDB0A971D7D07610027F707 /* pushguidetop@3x.png in Resources */,
+				BC0E1D771D7E9B14000692A3 /* cellmorebtnnormalN_24x20_@3x.png in Resources */,
 				BCDB0A231D7D07610027F707 /* playButtonClick@3x.png in Resources */,
 				BCDB0A0B1D7D07610027F707 /* imageBackground@3x.png in Resources */,
 				BCDB0A5B1D7D07610027F707 /* mine-moon-icon-click.png in Resources */,
@@ -1324,6 +1374,7 @@
 				BCDB0A061D7D07610027F707 /* defaultUserIcon.png in Resources */,
 				BCDB0AA61D7D07610027F707 /* tabBar_me_click_icon.png in Resources */,
 				BCDB0AA81D7D07610027F707 /* tabBar_me_click_icon@3x.png in Resources */,
+				BC0E1D5F1D7E9531000692A3 /* EssenceVideoCell.xib in Resources */,
 				BCDB09E51D7D07610027F707 /* AppIcon29x29@2x.png in Resources */,
 				BCDB0A1B1D7D07610027F707 /* mainCellShare@2x.png in Resources */,
 				BCDB0A8F1D7D07610027F707 /* pushguidebot.png in Resources */,
@@ -1342,6 +1393,7 @@
 				BCDB0A141D7D07610027F707 /* mainCellCommentClick.png in Resources */,
 				BCDB0A9D1D7D07610027F707 /* tabBar_essence_icon.png in Resources */,
 				BCDB0AA01D7D07610027F707 /* tabBar_friendTrends_click_icon.png in Resources */,
+				BC0E1D731D7E9B14000692A3 /* cellmorebtnnormal_24x20_@2x.png in Resources */,
 				BCDB0AA11D7D07610027F707 /* tabBar_friendTrends_click_icon@2x.png in Resources */,
 				BCDB0A6E1D7D07610027F707 /* nav_coin_icon@3x.png in Resources */,
 				BCDB0A0C1D7D07610027F707 /* mainCellBackground.png in Resources */,
@@ -1362,6 +1414,7 @@
 				BCDB0A691D7D07610027F707 /* mine-sun-icon.png in Resources */,
 				BCDB0A121D7D07610027F707 /* mainCellComment.png in Resources */,
 				BCDB0A021D7D07610027F707 /* cellFollowIcon@2x.png in Resources */,
+				BC0E1D761D7E9B14000692A3 /* cellmorebtnnormalN_24x20_@2x.png in Resources */,
 				BCDB0A431D7D07610027F707 /* header_cry_icon.png in Resources */,
 				BCDB0A011D7D07610027F707 /* cellFollowIcon.png in Resources */,
 				BCDB0A481D7D07610027F707 /* LaunchImage-800-667h@2x.png in Resources */,
@@ -1375,6 +1428,7 @@
 				BCDB09E81D7D07610027F707 /* AppIcon29x29~ipad.png in Resources */,
 				BCDB09F01D7D07610027F707 /* AppIcon57x57@2x.png in Resources */,
 				BCDB0A071D7D07610027F707 /* defaultUserIcon@2x.png in Resources */,
+				BC0E1D751D7E9B14000692A3 /* cellmorebtnnormalN_24x20_@1x.png in Resources */,
 				BCDB0A7B1D7D07610027F707 /* app_slogan@3x.png in Resources */,
 				BCDB0AB11D7D07610027F707 /* tabBar_new_icon@3x.png in Resources */,
 				BCDB0A671D7D07610027F707 /* mine-sun-icon-click@2x.png in Resources */,
@@ -1397,6 +1451,7 @@
 				BCDB0A3A1D7D07610027F707 /* video-play@3x.png in Resources */,
 				BCDB0AB51D7D07610027F707 /* tabBar_publish_icon.png in Resources */,
 				BCDB0A081D7D07610027F707 /* defaultUserIcon@3x.png in Resources */,
+				BC0E1D6D1D7E9B14000692A3 /* cellmorebtnclick_24x20_@2x.png in Resources */,
 				BCDB0AA41D7D07610027F707 /* tabBar_friendTrends_icon@2x.png in Resources */,
 				BCDB0A361D7D07610027F707 /* tagicon@2x.png in Resources */,
 				BCDB0A1A1D7D07610027F707 /* mainCellShare.png in Resources */,
@@ -1404,6 +1459,8 @@
 				BCDB0A5C1D7D07610027F707 /* mine-moon-icon-click@2x.png in Resources */,
 				BCDB0A451D7D07610027F707 /* LaunchImage-568h@2x.png in Resources */,
 				BCDB0A541D7D07610027F707 /* MainTagSubIcon@3x.png in Resources */,
+				BC0E1D6C1D7E9B14000692A3 /* cellmorebtnclick_24x20_@1x.png in Resources */,
+				BC0E1D741D7E9B14000692A3 /* cellmorebtnnormal_24x20_@3x.png in Resources */,
 				BCDB0A661D7D07610027F707 /* mine-sun-icon-click.png in Resources */,
 				BCDB0A161D7D07610027F707 /* mainCellDing.png in Resources */,
 				BCDB0A5F1D7D07610027F707 /* mine-moon-icon@3x.png in Resources */,
@@ -1523,6 +1580,7 @@
 				BCA6B4F91D7D002700C01566 /* AppDelegate.m in Sources */,
 				BCDB0ACB1D7D49DC0027F707 /* BDJDownloader.m in Sources */,
 				BCDB09041D7D06A50027F707 /* FollowViewController.m in Sources */,
+				BC0E1D5E1D7E9531000692A3 /* EssenceVideoCell.m in Sources */,
 				BCDB09011D7D06710027F707 /* AddViewController.m in Sources */,
 				BCDB0ABA1D7D07AC0027F707 /* MainTabBarController.m in Sources */,
 				BCDB08FE1D7D06600027F707 /* NewsViewController.m in Sources */,
