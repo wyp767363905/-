@@ -6,8 +6,8 @@
 //  Copyright © 2016年 qianfeng. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import "BDJNavTitleViewController.h"
 
-@interface EssenceViewController : BaseViewController
+@interface EssenceViewController : BDJNavTitleViewController
 
 @end

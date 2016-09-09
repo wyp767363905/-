@@ -6,8 +6,12 @@
 //  Copyright © 2016年 qianfeng. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import "BDJNavTitleViewController.h"
 
-@interface NewsViewController : BaseViewController
+@class SubMenuModel;
+@interface NewsViewController : BDJNavTitleViewController
+
+//导航上面的标题
+//@property (nonatomic, strong)SubMenuModel *subModel;
 
 @end

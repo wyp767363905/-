@@ -21,7 +21,7 @@
 @interface EssenceModel : JSONModel
 
 @property (nonatomic, strong)InfoModel<Optional> *info;
-@property (nonatomic, strong)NSArray<Optional,ListModel> *list;
+@property (nonatomic, strong)NSMutableArray<Optional,ListModel> *list;
 
 @end
 
@@ -57,6 +57,9 @@
 
 @property (nonatomic, strong)NSString<Optional> *type;
 @property (nonatomic, strong)NSString<Optional> *listId;
+
+//添加一个cell的高度属性
+@property (nonatomic, strong)NSNumber<Optional> *cellHeight;
 
 @end
 

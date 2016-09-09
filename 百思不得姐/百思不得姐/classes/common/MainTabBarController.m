@@ -8,6 +8,9 @@
 
 #import "MainTabBarController.h"
 #import "BDJTabBar.h"
+#import "MenuModel.h"
+#import "EssenceViewController.h"
+#import "NewsViewController.h"
 
 @interface MainTabBarController ()
 
@@ -27,6 +30,57 @@
     
     //使用自定制的tabBar
     [self setValue:[[BDJTabBar alloc] init] forKey:@"tabBar"];
+    
+    //导航标题存到本地
+    BOOL flag = [[NSFileManager defaultManager] fileExistsAtPath:[self navTitleFilePath]];
+    if (flag) {
+        NSData *data = [NSData dataWithContentsOfFile:[self navTitleFilePath]];
+        [self parseData:data];
+    }
+    
+    //请求导航标题列表
+    [self downloadNavList];
+    
+}
+
+- (void)parseData:(NSData *)data{
+    
+    //解析数据
+    MenuModel *model = [[MenuModel alloc] initWithData:data error:nil];
+    
+    //将数据传给精华和最新的界面
+    //精华
+    UINavigationController *essenceNavCtrl = (UINavigationController *)[self.viewControllers firstObject];
+    EssenceViewController *essenceCtrl = (EssenceViewController *)[essenceNavCtrl.viewControllers firstObject];
+    essenceCtrl.subModel = model.menus[0];
+    
+    //最新
+    UINavigationController *newsNavCtrl = (UINavigationController *)self.viewControllers[1];
+    NewsViewController *newsCtrl = (NewsViewController *)newsNavCtrl.viewControllers[0];
+    newsCtrl.subModel = model.menus[1];
+
+    
+}
+
+- (void)downloadNavList{
+    
+    __weak typeof(self) weakSelf = self;
+    [BDJDownloader downloadWithUrlString:kNavBarListUrl finish:^(NSData *data) {
+        
+        //如果是程序第一次下载导航标题数据
+        //需要显示一下
+        BOOL flag = [[NSFileManager defaultManager] fileExistsAtPath:[weakSelf navTitleFilePath]];
+        if (!flag) {
+            //文件不存在,下载回来的数据需要显示
+            [weakSelf parseData:data];
+        }
+        
+        //存文件
+        [data writeToFile:[self navTitleFilePath] atomically:YES];
+        
+    } failure:^(NSError *error) {
+        NSLog(@"%@", error);
+    }];
     
 }
 
@@ -50,6 +104,17 @@
     
     //添加子视图控制器
     [self addChildViewController:navCtrl];
+    
+}
+
+//导航标题存到本地的文件名
+- (NSString *)navTitleFilePath{
+    
+    NSString *docPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
+    
+    NSString *filePath = [docPath stringByAppendingPathComponent:@"navTitle"];
+    
+    return filePath;
     
 }
 

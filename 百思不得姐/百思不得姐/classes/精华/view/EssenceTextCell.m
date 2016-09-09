@@ -6,10 +6,10 @@
 //  Copyright © 2016年 qianfeng. All rights reserved.
 //
 
-#import "EssenceVideoCell.h"
+#import "EssenceTextCell.h"
 #import "EssenceModel.h"
 
-@interface EssenceVideoCell()
+@interface EssenceTextCell()
 
 @property (weak, nonatomic) IBOutlet UIView *bgView;
 
@@ -22,14 +22,6 @@
 @property (weak, nonatomic) IBOutlet UIButton *favoriteBtn;
 
 @property (weak, nonatomic) IBOutlet UILabel *contentLabel;
-
-@property (weak, nonatomic) IBOutlet UIImageView *videoImageView;
-
-@property (weak, nonatomic) IBOutlet UIButton *videoPlayBtn;
-
-@property (weak, nonatomic) IBOutlet UILabel *playNumLabel;
-
-@property (weak, nonatomic) IBOutlet UILabel *playTimeLabel;
 
 @property (weak, nonatomic) IBOutlet UIView *commentView;
 
@@ -47,9 +39,6 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *commentBtn;
 
-//图片的高度
-@property (weak, nonatomic) IBOutlet NSLayoutConstraint *videoImageHeightCon;
-
 //评论文字背景视图的高度
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *commentViewHCon;
 
@@ -58,7 +47,7 @@
 
 @end
 
-@implementation EssenceVideoCell
+@implementation EssenceTextCell
 
 - (void)setModel:(ListModel *)model{
     
@@ -78,33 +67,6 @@
     
     //文字
     self.contentLabel.text = model.text;
-    
-    //视频图片
-    NSString *picName = [model.video.thumbnail_small firstObject];
-    [self.videoImageView sd_setImageWithURL:[NSURL URLWithString:picName]];
-    
-    //修改高度
-    self.videoImageHeightCon.constant = self.videoImageView.frame.size.width*model.video.height/model.video.width;
-    
-    //播放次数
-    self.playNumLabel.text = [NSString stringWithFormat:@"%ld播放", model.video.playcount];
-    
-    //播放时长
-    NSMutableString *timeStr = [NSMutableString string];
-    NSInteger duration = model.video.duration;
-    //小时
-    if (duration > 3600) {
-        [timeStr appendFormat:@"%02ld:", duration/3600];
-        duration = duration % 3600;
-    }
-    //分钟
-    if (duration > 60) {
-        [timeStr appendFormat:@"%02ld:", duration/60];
-        duration = duration % 60;
-    }
-    //秒
-    [timeStr appendFormat:@"%02ld", duration];
-    self.playTimeLabel.text = timeStr;
     
     //热评
     
@@ -174,9 +136,6 @@
 }
 
 - (IBAction)favoriteAction:(id)sender {
-}
-
-- (IBAction)videoPlayAction:(id)sender {
 }
 
 - (IBAction)loveAction:(id)sender {

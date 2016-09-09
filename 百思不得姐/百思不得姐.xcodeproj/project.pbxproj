@@ -8,6 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		5BC82B22254EC2C0B2D5F9DE /* libPods-百思不得姐.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E99E4597460EE979D90DFDEE /* libPods-百思不得姐.a */; };
+		BC02A7331D811B0300F5E210 /* BDJNavTitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC02A7321D811B0300F5E210 /* BDJNavTitleViewController.m */; };
+		BC02A7371D813F6000F5E210 /* EssenceTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC02A7351D813F6000F5E210 /* EssenceTextCell.m */; };
+		BC02A7381D813F6000F5E210 /* EssenceTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC02A7361D813F6000F5E210 /* EssenceTextCell.xib */; };
+		BC07B82A1D7FC0FC000B709C /* EssenceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC07B8291D7FC0FC000B709C /* EssenceTableViewController.m */; };
+		BC07B82D1D7FE9B9000B709C /* MenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC07B82C1D7FE9B9000B709C /* MenuModel.m */; };
+		BC07B8301D7FF063000B709C /* NavTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC07B82F1D7FF063000B709C /* NavTitleView.m */; };
+		BC07B8451D7FF958000B709C /* navigationButtonRandom_26x26_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC07B8311D7FF958000B709C /* navigationButtonRandom_26x26_@1x.png */; };
+		BC07B8461D7FF958000B709C /* navigationButtonRandom_26x26_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC07B8321D7FF958000B709C /* navigationButtonRandom_26x26_@2x.png */; };
+		BC07B8471D7FF958000B709C /* navigationButtonRandomClick_26x26_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC07B8331D7FF958000B709C /* navigationButtonRandomClick_26x26_@1x.png */; };
+		BC07B8481D7FF958000B709C /* navigationButtonRandomClick_26x26_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC07B8341D7FF958000B709C /* navigationButtonRandomClick_26x26_@2x.png */; };
+		BC07B8491D7FF958000B709C /* navigationButtonRandomClickN_26x26_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC07B8351D7FF958000B709C /* navigationButtonRandomClickN_26x26_@1x.png */; };
+		BC07B84A1D7FF958000B709C /* navigationButtonRandomClickN_26x26_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC07B8361D7FF958000B709C /* navigationButtonRandomClickN_26x26_@2x.png */; };
+		BC07B84B1D7FF958000B709C /* navigationButtonRandomN_26x26_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC07B8371D7FF958000B709C /* navigationButtonRandomN_26x26_@1x.png */; };
+		BC07B84C1D7FF958000B709C /* navigationButtonRandomN_26x26_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC07B8381D7FF958000B709C /* navigationButtonRandomN_26x26_@2x.png */; };
+		BC07B84D1D7FF958000B709C /* review_post_nav_icon_20x17_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC07B8391D7FF958000B709C /* review_post_nav_icon_20x17_@2x.png */; };
+		BC07B84E1D7FF958000B709C /* review_post_nav_icon_20x17_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC07B83A1D7FF958000B709C /* review_post_nav_icon_20x17_@3x.png */; };
+		BC07B84F1D7FF958000B709C /* review_post_nav_icon_20x18_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC07B83B1D7FF958000B709C /* review_post_nav_icon_20x18_@1x.png */; };
+		BC07B8501D7FF958000B709C /* review_post_nav_icon_click_20x17_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC07B83C1D7FF958000B709C /* review_post_nav_icon_click_20x17_@2x.png */; };
+		BC07B8511D7FF958000B709C /* review_post_nav_icon_click_20x17_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC07B83D1D7FF958000B709C /* review_post_nav_icon_click_20x17_@3x.png */; };
+		BC07B8521D7FF958000B709C /* review_post_nav_icon_click_20x18_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC07B83E1D7FF958000B709C /* review_post_nav_icon_click_20x18_@1x.png */; };
+		BC07B8531D7FF958000B709C /* review_post_nav_icon_clickN_20x17_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC07B83F1D7FF958000B709C /* review_post_nav_icon_clickN_20x17_@2x.png */; };
+		BC07B8541D7FF958000B709C /* review_post_nav_icon_clickN_20x17_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC07B8401D7FF958000B709C /* review_post_nav_icon_clickN_20x17_@3x.png */; };
+		BC07B8551D7FF958000B709C /* review_post_nav_icon_clickN_20x18_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC07B8411D7FF958000B709C /* review_post_nav_icon_clickN_20x18_@1x.png */; };
+		BC07B8561D7FF958000B709C /* review_post_nav_iconN_20x17_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC07B8421D7FF958000B709C /* review_post_nav_iconN_20x17_@2x.png */; };
+		BC07B8571D7FF958000B709C /* review_post_nav_iconN_20x17_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC07B8431D7FF958000B709C /* review_post_nav_iconN_20x17_@3x.png */; };
+		BC07B8581D7FF958000B709C /* review_post_nav_iconN_20x18_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC07B8441D7FF958000B709C /* review_post_nav_iconN_20x18_@1x.png */; };
 		BC0E1D5E1D7E9531000692A3 /* EssenceVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0E1D5C1D7E9531000692A3 /* EssenceVideoCell.m */; };
 		BC0E1D5F1D7E9531000692A3 /* EssenceVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC0E1D5D1D7E9531000692A3 /* EssenceVideoCell.xib */; };
 		BC0E1D6C1D7E9B14000692A3 /* cellmorebtnclick_24x20_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0E1D601D7E9B14000692A3 /* cellmorebtnclick_24x20_@1x.png */; };
@@ -276,6 +302,37 @@
 /* Begin PBXFileReference section */
 		27B54BF0D70CE8370E1932DF /* Pods-百思不得姐.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.debug.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.debug.xcconfig"; sourceTree = "<group>"; };
 		28C61AFDDA747A9CAAD0A005 /* Pods-百思不得姐.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.release.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.release.xcconfig"; sourceTree = "<group>"; };
+		BC02A7311D811B0300F5E210 /* BDJNavTitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDJNavTitleViewController.h; sourceTree = "<group>"; };
+		BC02A7321D811B0300F5E210 /* BDJNavTitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDJNavTitleViewController.m; sourceTree = "<group>"; };
+		BC02A7341D813F6000F5E210 /* EssenceTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EssenceTextCell.h; sourceTree = "<group>"; };
+		BC02A7351D813F6000F5E210 /* EssenceTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EssenceTextCell.m; sourceTree = "<group>"; };
+		BC02A7361D813F6000F5E210 /* EssenceTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EssenceTextCell.xib; sourceTree = "<group>"; };
+		BC07B8281D7FC0FC000B709C /* EssenceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EssenceTableViewController.h; sourceTree = "<group>"; };
+		BC07B8291D7FC0FC000B709C /* EssenceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EssenceTableViewController.m; sourceTree = "<group>"; };
+		BC07B82B1D7FE9B9000B709C /* MenuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuModel.h; sourceTree = "<group>"; };
+		BC07B82C1D7FE9B9000B709C /* MenuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuModel.m; sourceTree = "<group>"; };
+		BC07B82E1D7FF063000B709C /* NavTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavTitleView.h; sourceTree = "<group>"; };
+		BC07B82F1D7FF063000B709C /* NavTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavTitleView.m; sourceTree = "<group>"; };
+		BC07B8311D7FF958000B709C /* navigationButtonRandom_26x26_@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationButtonRandom_26x26_@1x.png"; sourceTree = "<group>"; };
+		BC07B8321D7FF958000B709C /* navigationButtonRandom_26x26_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationButtonRandom_26x26_@2x.png"; sourceTree = "<group>"; };
+		BC07B8331D7FF958000B709C /* navigationButtonRandomClick_26x26_@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationButtonRandomClick_26x26_@1x.png"; sourceTree = "<group>"; };
+		BC07B8341D7FF958000B709C /* navigationButtonRandomClick_26x26_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationButtonRandomClick_26x26_@2x.png"; sourceTree = "<group>"; };
+		BC07B8351D7FF958000B709C /* navigationButtonRandomClickN_26x26_@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationButtonRandomClickN_26x26_@1x.png"; sourceTree = "<group>"; };
+		BC07B8361D7FF958000B709C /* navigationButtonRandomClickN_26x26_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationButtonRandomClickN_26x26_@2x.png"; sourceTree = "<group>"; };
+		BC07B8371D7FF958000B709C /* navigationButtonRandomN_26x26_@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationButtonRandomN_26x26_@1x.png"; sourceTree = "<group>"; };
+		BC07B8381D7FF958000B709C /* navigationButtonRandomN_26x26_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationButtonRandomN_26x26_@2x.png"; sourceTree = "<group>"; };
+		BC07B8391D7FF958000B709C /* review_post_nav_icon_20x17_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "review_post_nav_icon_20x17_@2x.png"; sourceTree = "<group>"; };
+		BC07B83A1D7FF958000B709C /* review_post_nav_icon_20x17_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "review_post_nav_icon_20x17_@3x.png"; sourceTree = "<group>"; };
+		BC07B83B1D7FF958000B709C /* review_post_nav_icon_20x18_@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "review_post_nav_icon_20x18_@1x.png"; sourceTree = "<group>"; };
+		BC07B83C1D7FF958000B709C /* review_post_nav_icon_click_20x17_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "review_post_nav_icon_click_20x17_@2x.png"; sourceTree = "<group>"; };
+		BC07B83D1D7FF958000B709C /* review_post_nav_icon_click_20x17_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "review_post_nav_icon_click_20x17_@3x.png"; sourceTree = "<group>"; };
+		BC07B83E1D7FF958000B709C /* review_post_nav_icon_click_20x18_@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "review_post_nav_icon_click_20x18_@1x.png"; sourceTree = "<group>"; };
+		BC07B83F1D7FF958000B709C /* review_post_nav_icon_clickN_20x17_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "review_post_nav_icon_clickN_20x17_@2x.png"; sourceTree = "<group>"; };
+		BC07B8401D7FF958000B709C /* review_post_nav_icon_clickN_20x17_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "review_post_nav_icon_clickN_20x17_@3x.png"; sourceTree = "<group>"; };
+		BC07B8411D7FF958000B709C /* review_post_nav_icon_clickN_20x18_@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "review_post_nav_icon_clickN_20x18_@1x.png"; sourceTree = "<group>"; };
+		BC07B8421D7FF958000B709C /* review_post_nav_iconN_20x17_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "review_post_nav_iconN_20x17_@2x.png"; sourceTree = "<group>"; };
+		BC07B8431D7FF958000B709C /* review_post_nav_iconN_20x17_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "review_post_nav_iconN_20x17_@3x.png"; sourceTree = "<group>"; };
+		BC07B8441D7FF958000B709C /* review_post_nav_iconN_20x18_@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "review_post_nav_iconN_20x18_@1x.png"; sourceTree = "<group>"; };
 		BC0E1D5B1D7E9531000692A3 /* EssenceVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EssenceVideoCell.h; sourceTree = "<group>"; };
 		BC0E1D5C1D7E9531000692A3 /* EssenceVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EssenceVideoCell.m; sourceTree = "<group>"; };
 		BC0E1D5D1D7E9531000692A3 /* EssenceVideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EssenceVideoCell.xib; sourceTree = "<group>"; };
@@ -684,6 +741,8 @@
 				BCDB0AC51D7D1DF90027F707 /* Const.h */,
 				BCDB0AC91D7D49DC0027F707 /* BDJDownloader.h */,
 				BCDB0ACA1D7D49DC0027F707 /* BDJDownloader.m */,
+				BC07B82E1D7FF063000B709C /* NavTitleView.h */,
+				BC07B82F1D7FF063000B709C /* NavTitleView.m */,
 			);
 			path = common;
 			sourceTree = "<group>";
@@ -835,6 +894,10 @@
 			children = (
 				BCDB08F91D7D06400027F707 /* EssenceViewController.h */,
 				BCDB08FA1D7D06400027F707 /* EssenceViewController.m */,
+				BC07B8281D7FC0FC000B709C /* EssenceTableViewController.h */,
+				BC07B8291D7FC0FC000B709C /* EssenceTableViewController.m */,
+				BC02A7311D811B0300F5E210 /* BDJNavTitleViewController.h */,
+				BC02A7321D811B0300F5E210 /* BDJNavTitleViewController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -844,6 +907,8 @@
 			children = (
 				BCDB0ACC1D7D4F890027F707 /* EssenceModel.h */,
 				BCDB0ACD1D7D4F890027F707 /* EssenceModel.m */,
+				BC07B82B1D7FE9B9000B709C /* MenuModel.h */,
+				BC07B82C1D7FE9B9000B709C /* MenuModel.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -851,6 +916,9 @@
 		BCA6B53C1D7D018A00C01566 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				BC02A7341D813F6000F5E210 /* EssenceTextCell.h */,
+				BC02A7351D813F6000F5E210 /* EssenceTextCell.m */,
+				BC02A7361D813F6000F5E210 /* EssenceTextCell.xib */,
 				BC0E1D5B1D7E9531000692A3 /* EssenceVideoCell.h */,
 				BC0E1D5C1D7E9531000692A3 /* EssenceVideoCell.m */,
 				BC0E1D5D1D7E9531000692A3 /* EssenceVideoCell.xib */,
@@ -902,6 +970,26 @@
 		BCDB091C1D7D07610027F707 /* Essence */ = {
 			isa = PBXGroup;
 			children = (
+				BC07B8311D7FF958000B709C /* navigationButtonRandom_26x26_@1x.png */,
+				BC07B8321D7FF958000B709C /* navigationButtonRandom_26x26_@2x.png */,
+				BC07B8331D7FF958000B709C /* navigationButtonRandomClick_26x26_@1x.png */,
+				BC07B8341D7FF958000B709C /* navigationButtonRandomClick_26x26_@2x.png */,
+				BC07B8351D7FF958000B709C /* navigationButtonRandomClickN_26x26_@1x.png */,
+				BC07B8361D7FF958000B709C /* navigationButtonRandomClickN_26x26_@2x.png */,
+				BC07B8371D7FF958000B709C /* navigationButtonRandomN_26x26_@1x.png */,
+				BC07B8381D7FF958000B709C /* navigationButtonRandomN_26x26_@2x.png */,
+				BC07B8391D7FF958000B709C /* review_post_nav_icon_20x17_@2x.png */,
+				BC07B83A1D7FF958000B709C /* review_post_nav_icon_20x17_@3x.png */,
+				BC07B83B1D7FF958000B709C /* review_post_nav_icon_20x18_@1x.png */,
+				BC07B83C1D7FF958000B709C /* review_post_nav_icon_click_20x17_@2x.png */,
+				BC07B83D1D7FF958000B709C /* review_post_nav_icon_click_20x17_@3x.png */,
+				BC07B83E1D7FF958000B709C /* review_post_nav_icon_click_20x18_@1x.png */,
+				BC07B83F1D7FF958000B709C /* review_post_nav_icon_clickN_20x17_@2x.png */,
+				BC07B8401D7FF958000B709C /* review_post_nav_icon_clickN_20x17_@3x.png */,
+				BC07B8411D7FF958000B709C /* review_post_nav_icon_clickN_20x18_@1x.png */,
+				BC07B8421D7FF958000B709C /* review_post_nav_iconN_20x17_@2x.png */,
+				BC07B8431D7FF958000B709C /* review_post_nav_iconN_20x17_@3x.png */,
+				BC07B8441D7FF958000B709C /* review_post_nav_iconN_20x18_@1x.png */,
 				BC0E1D601D7E9B14000692A3 /* cellmorebtnclick_24x20_@1x.png */,
 				BC0E1D611D7E9B14000692A3 /* cellmorebtnclick_24x20_@2x.png */,
 				BC0E1D621D7E9B14000692A3 /* cellmorebtnclick_24x20_@3x.png */,
@@ -1290,6 +1378,7 @@
 				BCDB09F71D7D07610027F707 /* cell-button-line.png in Resources */,
 				BCDB0A0A1D7D07610027F707 /* imageBackground@2x.png in Resources */,
 				BCDB09F31D7D07610027F707 /* AppIcon72x72@2x~ipad.png in Resources */,
+				BC07B8551D7FF958000B709C /* review_post_nav_icon_clickN_20x18_@1x.png in Resources */,
 				BCDB0A351D7D07610027F707 /* tagicon.png in Resources */,
 				BCDB0AB61D7D07610027F707 /* tabBar_publish_icon@2x.png in Resources */,
 				BC0E1D6F1D7E9B14000692A3 /* cellmorebtnclickN_24x20_@1x.png in Resources */,
@@ -1314,6 +1403,7 @@
 				BCDB0A801D7D07610027F707 /* publish-offline@2x.png in Resources */,
 				BCDB0A3D1D7D07610027F707 /* FollowBtnClickBg.png in Resources */,
 				BCDB0A8E1D7D07610027F707 /* pushguidebg.png in Resources */,
+				BC02A7381D813F6000F5E210 /* EssenceTextCell.xib in Resources */,
 				BCDB09ED1D7D07610027F707 /* AppIcon50x50@2x~ipad.png in Resources */,
 				BCDB0A371D7D07610027F707 /* tagicon@3x.png in Resources */,
 				BCDB0A811D7D07610027F707 /* publish-offline@3x.png in Resources */,
@@ -1332,6 +1422,8 @@
 				BCDB0A241D7D07610027F707 /* playButtonPause.png in Resources */,
 				BCDB0A301D7D07610027F707 /* see-big-picture-background.png in Resources */,
 				BCDB09FF1D7D07610027F707 /* cellFollowDisableIcon@2x.png in Resources */,
+				BC07B8461D7FF958000B709C /* navigationButtonRandom_26x26_@2x.png in Resources */,
+				BC07B84D1D7FF958000B709C /* review_post_nav_icon_20x17_@2x.png in Resources */,
 				BCDB0A281D7D07610027F707 /* playButtonPlay@2x.png in Resources */,
 				BCDB0A911D7D07610027F707 /* pushguidebot@3x.png in Resources */,
 				BCDB0A211D7D07610027F707 /* playButtonClick.png in Resources */,
@@ -1346,11 +1438,13 @@
 				BCDB09F11D7D07610027F707 /* AppIcon60x60@2x.png in Resources */,
 				BCDB09FE1D7D07610027F707 /* cellFollowDisableIcon.png in Resources */,
 				BCDB0A941D7D07610027F707 /* pushguidemid@3x.png in Resources */,
+				BC07B84B1D7FF958000B709C /* navigationButtonRandomN_26x26_@1x.png in Resources */,
 				BCDB0A421D7D07610027F707 /* friendsTrend_login_click@2x.png in Resources */,
 				BCDB0A581D7D07610027F707 /* MainTitle.png in Resources */,
 				BCDB0A391D7D07610027F707 /* video-play@2x.png in Resources */,
 				BCDB0A3C1D7D07610027F707 /* FollowBtnBg@2x.png in Resources */,
 				BCDB0A851D7D07610027F707 /* publish-review.png in Resources */,
+				BC07B84C1D7FF958000B709C /* navigationButtonRandomN_26x26_@2x.png in Resources */,
 				BCDB0A101D7D07610027F707 /* mainCellCaiClick.png in Resources */,
 				BCDB0A6F1D7D07610027F707 /* nav_coin_icon_click.png in Resources */,
 				BCDB0A001D7D07610027F707 /* cellFollowDisableIcon@3x.png in Resources */,
@@ -1367,7 +1461,10 @@
 				BCDB09EE1D7D07610027F707 /* AppIcon50x50~ipad.png in Resources */,
 				BCA6B5041D7D002700C01566 /* LaunchScreen.storyboard in Resources */,
 				BCDB09E61D7D07610027F707 /* AppIcon29x29@2x~ipad.png in Resources */,
+				BC07B84E1D7FF958000B709C /* review_post_nav_icon_20x17_@3x.png in Resources */,
+				BC07B84F1D7FF958000B709C /* review_post_nav_icon_20x18_@1x.png in Resources */,
 				BCDB09EB1D7D07610027F707 /* AppIcon40x40@3x.png in Resources */,
+				BC07B8561D7FF958000B709C /* review_post_nav_iconN_20x17_@2x.png in Resources */,
 				BCDB0A291D7D07610027F707 /* playButtonPlay@3x.png in Resources */,
 				BCDB0A191D7D07610027F707 /* mainCellDingClick@2x.png in Resources */,
 				BCDB09F21D7D07610027F707 /* AppIcon60x60@3x.png in Resources */,
@@ -1377,9 +1474,11 @@
 				BC0E1D5F1D7E9531000692A3 /* EssenceVideoCell.xib in Resources */,
 				BCDB09E51D7D07610027F707 /* AppIcon29x29@2x.png in Resources */,
 				BCDB0A1B1D7D07610027F707 /* mainCellShare@2x.png in Resources */,
+				BC07B8541D7FF958000B709C /* review_post_nav_icon_clickN_20x17_@3x.png in Resources */,
 				BCDB0A8F1D7D07610027F707 /* pushguidebot.png in Resources */,
 				BCDB0AA91D7D07610027F707 /* tabBar_me_icon.png in Resources */,
 				BCDB09EF1D7D07610027F707 /* AppIcon57x57.png in Resources */,
+				BC07B8491D7FF958000B709C /* navigationButtonRandomClickN_26x26_@1x.png in Resources */,
 				BCDB0A891D7D07610027F707 /* publish-text@2x.png in Resources */,
 				BCDB0A9E1D7D07610027F707 /* tabBar_essence_icon@2x.png in Resources */,
 				BCDB0A3B1D7D07610027F707 /* FollowBtnBg.png in Resources */,
@@ -1389,6 +1488,7 @@
 				BCDB0A4A1D7D07610027F707 /* LaunchImage.png in Resources */,
 				BCDB0A3E1D7D07610027F707 /* FollowBtnClickBg@2x.png in Resources */,
 				BCDB0A951D7D07610027F707 /* pushguidetop.png in Resources */,
+				BC07B8531D7FF958000B709C /* review_post_nav_icon_clickN_20x17_@2x.png in Resources */,
 				BCDB0A181D7D07610027F707 /* mainCellDingClick.png in Resources */,
 				BCDB0A141D7D07610027F707 /* mainCellCommentClick.png in Resources */,
 				BCDB0A9D1D7D07610027F707 /* tabBar_essence_icon.png in Resources */,
@@ -1396,6 +1496,7 @@
 				BC0E1D731D7E9B14000692A3 /* cellmorebtnnormal_24x20_@2x.png in Resources */,
 				BCDB0AA11D7D07610027F707 /* tabBar_friendTrends_click_icon@2x.png in Resources */,
 				BCDB0A6E1D7D07610027F707 /* nav_coin_icon@3x.png in Resources */,
+				BC07B8521D7FF958000B709C /* review_post_nav_icon_click_20x18_@1x.png in Resources */,
 				BCDB0A0C1D7D07610027F707 /* mainCellBackground.png in Resources */,
 				BCDB0A0F1D7D07610027F707 /* mainCellCai@2x.png in Resources */,
 				BCDB0A931D7D07610027F707 /* pushguidemid@2x.png in Resources */,
@@ -1412,10 +1513,13 @@
 				BCDB0A841D7D07610027F707 /* publish-picture@3x.png in Resources */,
 				BCDB0A961D7D07610027F707 /* pushguidetop@2x.png in Resources */,
 				BCDB0A691D7D07610027F707 /* mine-sun-icon.png in Resources */,
+				BC07B8481D7FF958000B709C /* navigationButtonRandomClick_26x26_@2x.png in Resources */,
 				BCDB0A121D7D07610027F707 /* mainCellComment.png in Resources */,
+				BC07B8471D7FF958000B709C /* navigationButtonRandomClick_26x26_@1x.png in Resources */,
 				BCDB0A021D7D07610027F707 /* cellFollowIcon@2x.png in Resources */,
 				BC0E1D761D7E9B14000692A3 /* cellmorebtnnormalN_24x20_@2x.png in Resources */,
 				BCDB0A431D7D07610027F707 /* header_cry_icon.png in Resources */,
+				BC07B8571D7FF958000B709C /* review_post_nav_iconN_20x17_@3x.png in Resources */,
 				BCDB0A011D7D07610027F707 /* cellFollowIcon.png in Resources */,
 				BCDB0A481D7D07610027F707 /* LaunchImage-800-667h@2x.png in Resources */,
 				BCDB0A571D7D07610027F707 /* MainTagSubIconClick@3x.png in Resources */,
@@ -1423,6 +1527,7 @@
 				BCDB0A4E1D7D07610027F707 /* friendsRecommentIcon-click@3x.png in Resources */,
 				BCDB0A2B1D7D07610027F707 /* post_placeholderImage@2x.png in Resources */,
 				BCDB09F51D7D07610027F707 /* AppIcon76x76@2x~ipad.png in Resources */,
+				BC07B8511D7FF958000B709C /* review_post_nav_icon_click_20x17_@3x.png in Resources */,
 				BCDB0A701D7D07610027F707 /* nav_coin_icon_click@2x.png in Resources */,
 				BCDB0A271D7D07610027F707 /* playButtonPlay.png in Resources */,
 				BCDB09E81D7D07610027F707 /* AppIcon29x29~ipad.png in Resources */,
@@ -1430,6 +1535,7 @@
 				BCDB0A071D7D07610027F707 /* defaultUserIcon@2x.png in Resources */,
 				BC0E1D751D7E9B14000692A3 /* cellmorebtnnormalN_24x20_@1x.png in Resources */,
 				BCDB0A7B1D7D07610027F707 /* app_slogan@3x.png in Resources */,
+				BC07B8451D7FF958000B709C /* navigationButtonRandom_26x26_@1x.png in Resources */,
 				BCDB0AB11D7D07610027F707 /* tabBar_new_icon@3x.png in Resources */,
 				BCDB0A671D7D07610027F707 /* mine-sun-icon-click@2x.png in Resources */,
 				BCDB09F91D7D07610027F707 /* cell-content-line.png in Resources */,
@@ -1446,6 +1552,7 @@
 				BCDB0A721D7D07610027F707 /* navigationbarBackgroundWhite.png in Resources */,
 				BCDB0AA21D7D07610027F707 /* tabBar_friendTrends_click_icon@3x.png in Resources */,
 				BCDB0AB01D7D07610027F707 /* tabBar_new_icon@2x.png in Resources */,
+				BC07B8581D7FF958000B709C /* review_post_nav_iconN_20x18_@1x.png in Resources */,
 				BCDB0AA51D7D07610027F707 /* tabBar_friendTrends_icon@3x.png in Resources */,
 				BCDB0A2C1D7D07610027F707 /* post_placeholderImage@3x.png in Resources */,
 				BCDB0A3A1D7D07610027F707 /* video-play@3x.png in Resources */,
@@ -1471,6 +1578,7 @@
 				BCDB0A751D7D07610027F707 /* navigationButtonReturn@3x.png in Resources */,
 				BCDB0A9B1D7D07610027F707 /* tabBar_essence_click_icon@2x.png in Resources */,
 				BCDB0A171D7D07610027F707 /* mainCellDing@2x.png in Resources */,
+				BC07B84A1D7FF958000B709C /* navigationButtonRandomClickN_26x26_@2x.png in Resources */,
 				BCDB0A8D1D7D07610027F707 /* publish-video@3x.png in Resources */,
 				BCDB0A461D7D07610027F707 /* LaunchImage-700-568h@2x.png in Resources */,
 				BCDB09EA1D7D07610027F707 /* AppIcon40x40@2x~ipad.png in Resources */,
@@ -1496,6 +1604,7 @@
 				BCDB0A8C1D7D07610027F707 /* publish-video@2x.png in Resources */,
 				BCDB09E41D7D07610027F707 /* AppIcon29x29.png in Resources */,
 				BCDB0A831D7D07610027F707 /* publish-picture@2x.png in Resources */,
+				BC07B8501D7FF958000B709C /* review_post_nav_icon_click_20x17_@2x.png in Resources */,
 				BCDB0A221D7D07610027F707 /* playButtonClick@2x.png in Resources */,
 				BCDB0AB21D7D07610027F707 /* tabBar_publish_click_icon.png in Resources */,
 			);
@@ -1570,12 +1679,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC02A7331D811B0300F5E210 /* BDJNavTitleViewController.m in Sources */,
 				BCDB0ABD1D7D13860027F707 /* BDJTabBar.m in Sources */,
 				BCDB0AC81D7D266F0027F707 /* UIView+Util.m in Sources */,
 				BCDB0AC11D7D14E90027F707 /* UIButton+Util.m in Sources */,
+				BC07B82A1D7FC0FC000B709C /* EssenceTableViewController.m in Sources */,
+				BC07B82D1D7FE9B9000B709C /* MenuModel.m in Sources */,
 				BCDB0ACE1D7D4F890027F707 /* EssenceModel.m in Sources */,
 				BCA6B4FC1D7D002700C01566 /* ViewController.m in Sources */,
 				BCDB09071D7D06BA0027F707 /* ProfileViewController.m in Sources */,
+				BC02A7371D813F6000F5E210 /* EssenceTextCell.m in Sources */,
 				BCDB08F81D7D061A0027F707 /* BaseViewController.m in Sources */,
 				BCA6B4F91D7D002700C01566 /* AppDelegate.m in Sources */,
 				BCDB0ACB1D7D49DC0027F707 /* BDJDownloader.m in Sources */,
@@ -1583,6 +1696,7 @@
 				BC0E1D5E1D7E9531000692A3 /* EssenceVideoCell.m in Sources */,
 				BCDB09011D7D06710027F707 /* AddViewController.m in Sources */,
 				BCDB0ABA1D7D07AC0027F707 /* MainTabBarController.m in Sources */,
+				BC07B8301D7FF063000B709C /* NavTitleView.m in Sources */,
 				BCDB08FE1D7D06600027F707 /* NewsViewController.m in Sources */,
 				BCDB08FB1D7D06400027F707 /* EssenceViewController.m in Sources */,
 				BCA6B4F61D7D002700C01566 /* main.m in Sources */,
