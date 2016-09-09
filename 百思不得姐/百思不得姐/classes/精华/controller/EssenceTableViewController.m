@@ -10,6 +10,9 @@
 #import "EssenceModel.h"
 #import "EssenceVideoCell.h"
 #import "EssenceTextCell.h"
+#import "EssenceImageCell.h"
+#import "EssenceAudioCell.h"
+#import "EssenceGifCell.h"
 
 @interface EssenceTableViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -139,19 +142,40 @@
     
     ListModel *model = self.dataModel.list[indexPath.row];
     cell.model = model;
-    
     return cell;
     
 }
 
 /** 图片的cell*/
 - (UITableViewCell *)createImageCellForTableView:(UITableView *)tableView atIndexPath:(NSIndexPath *)indexPath{
-    return [[UITableViewCell alloc] init];
+    
+    static NSString *cellId = @"imageCellId";
+    
+    EssenceImageCell *cell = [tableView dequeueReusableCellWithIdentifier:cellId];
+    if (nil == cell) {
+        cell = [[[NSBundle mainBundle] loadNibNamed:@"EssenceImageCell" owner:nil options:nil] lastObject];
+    }
+    
+    ListModel *model = self.dataModel.list[indexPath.row];
+    cell.model = model;
+    return cell;
+    
 }
 
 /** 声音的cell*/
 - (UITableViewCell *)createAudioCellForTableView:(UITableView *)tableView atIndexPath:(NSIndexPath *)indexPath{
-    return [[UITableViewCell alloc] init];
+    
+    static NSString *cellId = @"audioCellId";
+    
+    EssenceAudioCell *cell = [tableView dequeueReusableCellWithIdentifier:cellId];
+    if (nil == cell) {
+        cell = [[[NSBundle mainBundle] loadNibNamed:@"EssenceAudioCell" owner:nil options:nil] lastObject];
+    }
+    
+    ListModel *model = self.dataModel.list[indexPath.row];
+    cell.model = model;
+    return cell;
+
 }
 
 /** 文字的cell*/
@@ -167,11 +191,21 @@
     ListModel *model = self.dataModel.list[indexPath.row];
     cell.model = model;
     return cell;
+    
 }
 
 /** gif的cell*/
 - (UITableViewCell *)createGifCellForTableView:(UITableView *)tableView atIndexPath:(NSIndexPath *)indexPath{
-    return [[UITableViewCell alloc] init];
+    
+    static NSString *cellId = @"gifCellId";
+    EssenceGifCell *cell = [tableView dequeueReusableCellWithIdentifier:cellId];
+    if (nil == cell) {
+        cell = [[[NSBundle mainBundle] loadNibNamed:@"EssenceGifCell" owner:nil options:nil] lastObject];
+    }
+    
+    ListModel *model = self.dataModel.list[indexPath.row];
+    cell.model = model;
+    return cell;
 }
 
 /** html的cell*/

@@ -43,18 +43,22 @@
 
 @implementation UserModel
 
-
-
 @end
 
 @implementation VideoModel
 
+@end
+
+@implementation ImageModel
 
 @end
 
+@implementation GifModel
 
+@end
 
+@implementation AudioModel
 
-
+@end
 
 

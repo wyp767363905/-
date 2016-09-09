@@ -280,6 +280,12 @@
 		BCDB0AC81D7D266F0027F707 /* UIView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDB0AC71D7D266F0027F707 /* UIView+Util.m */; };
 		BCDB0ACB1D7D49DC0027F707 /* BDJDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDB0ACA1D7D49DC0027F707 /* BDJDownloader.m */; };
 		BCDB0ACE1D7D4F890027F707 /* EssenceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDB0ACD1D7D4F890027F707 /* EssenceModel.m */; };
+		BCDE01F21D824FBD000D274A /* EssenceAudioCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDE01ED1D824FBD000D274A /* EssenceAudioCell.m */; };
+		BCDE01F31D824FBD000D274A /* EssenceAudioCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCDE01EE1D824FBD000D274A /* EssenceAudioCell.xib */; };
+		BCDE01F41D824FBD000D274A /* EssenceImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDE01F01D824FBD000D274A /* EssenceImageCell.m */; };
+		BCDE01F51D824FBD000D274A /* EssenceImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCDE01F11D824FBD000D274A /* EssenceImageCell.xib */; };
+		BCDE01F91D826203000D274A /* EssenceGifCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDE01F71D826203000D274A /* EssenceGifCell.m */; };
+		BCDE01FA1D826203000D274A /* EssenceGifCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCDE01F81D826203000D274A /* EssenceGifCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -602,6 +608,15 @@
 		BCDB0ACA1D7D49DC0027F707 /* BDJDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDJDownloader.m; sourceTree = "<group>"; };
 		BCDB0ACC1D7D4F890027F707 /* EssenceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EssenceModel.h; sourceTree = "<group>"; };
 		BCDB0ACD1D7D4F890027F707 /* EssenceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EssenceModel.m; sourceTree = "<group>"; };
+		BCDE01EC1D824FBD000D274A /* EssenceAudioCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EssenceAudioCell.h; sourceTree = "<group>"; };
+		BCDE01ED1D824FBD000D274A /* EssenceAudioCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EssenceAudioCell.m; sourceTree = "<group>"; };
+		BCDE01EE1D824FBD000D274A /* EssenceAudioCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EssenceAudioCell.xib; sourceTree = "<group>"; };
+		BCDE01EF1D824FBD000D274A /* EssenceImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EssenceImageCell.h; sourceTree = "<group>"; };
+		BCDE01F01D824FBD000D274A /* EssenceImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EssenceImageCell.m; sourceTree = "<group>"; };
+		BCDE01F11D824FBD000D274A /* EssenceImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EssenceImageCell.xib; sourceTree = "<group>"; };
+		BCDE01F61D826203000D274A /* EssenceGifCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EssenceGifCell.h; sourceTree = "<group>"; };
+		BCDE01F71D826203000D274A /* EssenceGifCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EssenceGifCell.m; sourceTree = "<group>"; };
+		BCDE01F81D826203000D274A /* EssenceGifCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EssenceGifCell.xib; sourceTree = "<group>"; };
 		E99E4597460EE979D90DFDEE /* libPods-百思不得姐.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-百思不得姐.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -916,6 +931,15 @@
 		BCA6B53C1D7D018A00C01566 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				BCDE01F61D826203000D274A /* EssenceGifCell.h */,
+				BCDE01F71D826203000D274A /* EssenceGifCell.m */,
+				BCDE01F81D826203000D274A /* EssenceGifCell.xib */,
+				BCDE01EC1D824FBD000D274A /* EssenceAudioCell.h */,
+				BCDE01ED1D824FBD000D274A /* EssenceAudioCell.m */,
+				BCDE01EE1D824FBD000D274A /* EssenceAudioCell.xib */,
+				BCDE01EF1D824FBD000D274A /* EssenceImageCell.h */,
+				BCDE01F01D824FBD000D274A /* EssenceImageCell.m */,
+				BCDE01F11D824FBD000D274A /* EssenceImageCell.xib */,
 				BC02A7341D813F6000F5E210 /* EssenceTextCell.h */,
 				BC02A7351D813F6000F5E210 /* EssenceTextCell.m */,
 				BC02A7361D813F6000F5E210 /* EssenceTextCell.xib */,
@@ -1405,6 +1429,7 @@
 				BCDB0A8E1D7D07610027F707 /* pushguidebg.png in Resources */,
 				BC02A7381D813F6000F5E210 /* EssenceTextCell.xib in Resources */,
 				BCDB09ED1D7D07610027F707 /* AppIcon50x50@2x~ipad.png in Resources */,
+				BCDE01FA1D826203000D274A /* EssenceGifCell.xib in Resources */,
 				BCDB0A371D7D07610027F707 /* tagicon@3x.png in Resources */,
 				BCDB0A811D7D07610027F707 /* publish-offline@3x.png in Resources */,
 				BCDB0A971D7D07610027F707 /* pushguidetop@3x.png in Resources */,
@@ -1427,6 +1452,7 @@
 				BCDB0A281D7D07610027F707 /* playButtonPlay@2x.png in Resources */,
 				BCDB0A911D7D07610027F707 /* pushguidebot@3x.png in Resources */,
 				BCDB0A211D7D07610027F707 /* playButtonClick.png in Resources */,
+				BCDE01F31D824FBD000D274A /* EssenceAudioCell.xib in Resources */,
 				BCDB0A6B1D7D07610027F707 /* mine-sun-icon@3x.png in Resources */,
 				BCDB0A4B1D7D07610027F707 /* LaunchImage@2x.png in Resources */,
 				BCDB0A051D7D07610027F707 /* common-gif@2x.png in Resources */,
@@ -1484,6 +1510,7 @@
 				BCDB0A3B1D7D07610027F707 /* FollowBtnBg.png in Resources */,
 				BCDB0A0D1D7D07610027F707 /* mainCellBackground@2x.png in Resources */,
 				BCA6B5011D7D002700C01566 /* Assets.xcassets in Resources */,
+				BCDE01F51D824FBD000D274A /* EssenceImageCell.xib in Resources */,
 				BCDB0A201D7D07610027F707 /* playButton@3x.png in Resources */,
 				BCDB0A4A1D7D07610027F707 /* LaunchImage.png in Resources */,
 				BCDB0A3E1D7D07610027F707 /* FollowBtnClickBg@2x.png in Resources */,
@@ -1681,9 +1708,12 @@
 			files = (
 				BC02A7331D811B0300F5E210 /* BDJNavTitleViewController.m in Sources */,
 				BCDB0ABD1D7D13860027F707 /* BDJTabBar.m in Sources */,
+				BCDE01F41D824FBD000D274A /* EssenceImageCell.m in Sources */,
+				BCDE01F91D826203000D274A /* EssenceGifCell.m in Sources */,
 				BCDB0AC81D7D266F0027F707 /* UIView+Util.m in Sources */,
 				BCDB0AC11D7D14E90027F707 /* UIButton+Util.m in Sources */,
 				BC07B82A1D7FC0FC000B709C /* EssenceTableViewController.m in Sources */,
+				BCDE01F21D824FBD000D274A /* EssenceAudioCell.m in Sources */,
 				BC07B82D1D7FE9B9000B709C /* MenuModel.m in Sources */,
 				BCDB0ACE1D7D4F890027F707 /* EssenceModel.m in Sources */,
 				BCA6B4FC1D7D002700C01566 /* ViewController.m in Sources */,

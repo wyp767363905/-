@@ -12,6 +12,9 @@
 @class UserModel;
 @class VideoModel;
 @class CommentModel;
+@class ImageModel;
+@class GifModel;
+@class AudioModel;
 
 @protocol ListModel;
 @protocol TagModel;
@@ -60,6 +63,52 @@
 
 //添加一个cell的高度属性
 @property (nonatomic, strong)NSNumber<Optional> *cellHeight;
+
+//图片的数据
+@property (nonatomic, strong)ImageModel<Optional> *image;
+
+@property (nonatomic, strong)GifModel<Optional> *gif;
+
+@property (nonatomic, strong)AudioModel<Optional> *audio;
+
+@end
+
+@interface AudioModel : JSONModel
+
+@property (nonatomic, assign)NSInteger playfcount;
+@property (nonatomic, assign)NSInteger height;
+@property (nonatomic, assign)NSInteger width;
+@property (nonatomic, assign)NSInteger duration;
+@property (nonatomic, assign)NSInteger playcount;
+
+@property (nonatomic, strong)NSArray<NSString,Optional> *download_url;
+@property (nonatomic, strong)NSArray<NSString,Optional> *audio;
+@property (nonatomic, strong)NSArray<NSString,Optional> *thumbnail;
+@property (nonatomic, strong)NSArray<NSString,Optional> *thumbnail_small;
+
+@end
+
+@interface GifModel : JSONModel
+
+@property (nonatomic, strong)NSArray<NSString,Optional> *images;
+@property (nonatomic, strong)NSArray<NSString,Optional> *gif_thumbnail;
+@property (nonatomic, strong)NSArray<NSString,Optional> *download_url;
+
+@property (nonatomic, assign)NSInteger height;
+@property (nonatomic, assign)NSInteger width;
+
+@end
+
+@interface ImageModel : JSONModel
+
+@property (nonatomic, strong)NSArray<NSString,Optional> *medium;
+@property (nonatomic, strong)NSArray<NSString,Optional> *big;
+@property (nonatomic, strong)NSArray<NSString,Optional> *download_url;
+@property (nonatomic, strong)NSArray<NSString,Optional> *small;
+@property (nonatomic, strong)NSArray<NSString,Optional> *thumbnail_small;
+
+@property (nonatomic, assign)NSInteger height;
+@property (nonatomic, assign)NSInteger width;
 
 @end
 
